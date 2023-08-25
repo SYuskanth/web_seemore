@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="see_m.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <style>
+        .searchingBar{
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            right: 100px;
+            justify-content: center;
+            background: white;
+        }
+    </style>
+</head>
+
+<body>
+ <!--header section starts-->
+ <header>
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>B</span>ook<span>M</span>e</a>
+
+<nav class="navbar">
+       <a href="#home">Home</a>
+       <a href="#book">Book</a>
+       <a href="#Hotels">Hotels</a>
+       <a href="#services">Services</a>
+       <a href="#gallery">Gallery</a>
+       <a href="#review">Review</a>
+       <a href="#contact">Contact</a>
+       <span id="search-icon" style="color: white;"><i class="fas fa-search"></i></span>
+</nav>
+
+
+<!--<div class="icons">
+    <i class="fa-solid fa-magnifying-glass" id="search-btn"></i>
+    <i class="fa-solid fa-user" id="login-btn"></i>
+
+</div>
+-->
+
+
+
+  </header>
+  <div class="row searchingBar" id="searchingBar" style="display: none;">
+
+    <div class="col-3 ">
+        <label class="form-label  mb-2"
+            for="inlineFormInputName2">Where are you going?</label>
+        <select class="form-select " id="product" name="product_id[]" required>
+                    
+                    <option value="1" >Srilanka</option>
+                    <option value="2" >Sydney</option>
+                    <option value="3" >NY</option>
+
+            </select>
+
+        </select>
+    </div>
+    <div class="col-3">
+        <label class="form-label  "
+            for="inlineFormInputName2">Number of guest</label>
+
+        <input type="number" required class="form-control"
+            id="qty"
+            placeholder="Enter quantity" name="product_qty[]">
+    </div>
+
+    
+</div> 
+<!--header section end-->
+    <section class="hotels" id="hotels">
+        <h1 class="heading">
+            <span>h</span>
+            <span>o</span>
+            <span>t</span>
+            <span>e</span>
+            <span>l</span>
+         </h1>
+
+    <div class="container">
+        <div class="box">
+            <img src="images/im1.jpg" alt="">
+            <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Wilpattu National Park, Nochchiyagama, 41000 Wilpattu, Sri Lanka </h3>
+            <p> <b>Big Game - Wilpattu by Eco Team</b> <br>Perfect for a 1-night stay! <br>
+                
+                Breakfast info <br>
+                Continental, Vegetarian <br>
+                Rooms with: <br>
+                Pool with a view <br>
+                Free parking available at the hotel
+                </p>
+             
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+
+                <div class="price">$49.00 <span>$99.00 </span></div>
+                <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+
+        <div class="box">
+            <img src="images/im2.jpg" alt="">
+            <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Ward No.7, 9th Mile Post (13km), Nilaveli, Trincomalee, 31000 Nilaveli, Sri Lanka</h3>
+            <p> <b>Cardamon Hotel Nilaveli</b><br>Perfect for a 1-night stay! <br>
+                Breakfast info: <br>
+                Continental, Asian <br>
+                Rooms with: <br>
+                Garden view<br>
+                Terrace<br>
+                Pool view <br>
+                Sea view <br>
+                inner courtyard view <br>
+                Free private parking available at the hotel
+
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">$29.00 <span>$49.00 </span> </div>
+                <a href="#" class="btn">book now</a>
+            </div> 
+         </div>
+
+     <div class="box">
+                <img src="images/im3.jpg" alt="">
+                <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Greenwood Estate Nawalapitiya, 20650 Nawalapitiya, Sri Lanka</h3>
+                <p><b>Tea Cottage Wellness Resort by Greenwoods</b><br>Perfect for a 1-night stay! <br>
+                    Breakfast info <br>
+                    Continental, Italian, <br> 
+                    Full English/Irish, Vegetarian <br> 
+                    Vegan, Halal,<br> 
+                    Gluten-free, Asian, American<br>
+                    options with: <br>
+                    Landmark view<br>
+                    Mountain view <br>
+                    Inner courtyard view <br>
+                    Quiet street view <br>
+                    River view <br>
+                    Garden view <br>
+
+                    
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                 <div class="price">$19.00 <span>$39.00 </span> </div>
+                    <a href="#" class="btn">book now</a>
+                 </div>
+             </div>
+
+         <div class="box">
+                    <img src="images/im4.jpg" alt="">
+                    <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>427, Samanathara Road, Kuda Waskaduwa, Waskaduwa, 12580 Kalutara, Sri Lanka</h3>
+                    <p><b>Citrus Waskaduwa</b><br>
+                        Perfect for a 1-night stay! <br>
+                        Breakfast info: <br>
+                        Continental, Vegetarian, Asian <br>
+                        Options with: <br>
+                        Sea view <br>
+                        Free private parking available on-site<br>
+                        Activities: <br>
+                        Fitness centre <br>
+                        Spa and wellness centre <br>
+                        Billiards <br>
+
+                        </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            
+                        </div>
+                    <div class="price">$69.00 <span>$89.00 </span></div>
+                        <a href="#" class="btn">book now</a>
+                 </div>
+             </div>
+                 
+                <div class="box">
+                        <img src="images/im5.jpg" alt="">
+                        <div class="content">
+                        <h3><i class="fas fa-map-marker-alt"></i>Mederipitya,Deniyaya,81500 Deniyaya,Sri Lanka</h3>
+                        <p><b>Sinharaja Forest Edge</b><br>Perfect for a 1-night stay! <br>
+                            
+                            Breakfast info : <br>
+                            Continental, Vegetarian <br>
+                            Options with: <br>
+                            Mountain view <br>
+                            Pool with a view <br>
+    
+                            </p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price">$39.00 <span>$99.00 </span> </div>
+                            <a href="#" class="btn">book now</a>
+                        </div>
+                     </div>  
+
+       <div class="box">
+            <img src="images/im6.jpg" alt="">
+            <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Giritale Hotel, Giritale, 51000 Polonnaruwa, Sri Lanka </h3>
+            <p><b>Giritale Hotel</b><br>Perfect for a 1-night stay! <br>
+                Breakfast Info : <br>
+                Continental, Vegan, <br>
+                Asian, American <br>
+                Options with: <br>
+                Pool view <br>
+                Free private parking available on-site <br>
+                Activities: <br>
+                Tennis court <br>
+                
+
+                
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">$30.00 <span>$90.00 </span> </div>
+                <a href="#" class="btn">book now</a>
+                  
+         </div>
+
+   </div>
+</section>
+    
+        <!--footer section start-->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>about us</h3>
+            <p>Discover your ideal stay with ease. Our hotel booking website offers seamless navigation, secure reservations, and unbeatable deals for unforgettable experiences.</p>
+        </div>
+
+        <div class="box">
+            <h3>Branch Location </h3>
+            <a href="#">Sri lanka</a>
+            <a href="#">Australia</a>
+            <a href="#">USA</a>
+            <a href="#">Japan</a>
+            <a href="#">Egypt</a>
+            <a href="#">French</a>
+        </div>
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">Services</a>
+            <a href="#">Gallery</a>
+            <a href="#">Review</a>
+            <a href="#">contact</a>
+            <a href="#">Hotels</a>
+        </div>
+
+        <div class="box">
+            <h3>Follow Us</h3>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">LinkedIn</a>
+            
+            
+        </div>
+
+    </div>
+    <h1 class="credit">created by <span>Sabara SE Students</span> all rights reserved!!</h1>
+</section>
+
+<script>
+    const sp = document.getElementById("search-icon");
+    const elm = document.getElementById("searchingBar");
+
+    let show = false;
+    sp.addEventListener("click", () => {
+        if(show == false){
+            elm.style.display = "flex";
+            show = true;
+        }else{
+            elm.style.display = "none";
+            show = false;
+        }
+    })
+    window.onscroll =() =>{
+    searchBtn.classList.remove('fa-times');
+    searchBar.classList.remove('active');
+    }
+</script>
+
+<!--footer section end-->
+</body>
+</html>
